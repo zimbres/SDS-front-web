@@ -1,5 +1,4 @@
 import './styles.css';
-import { ReactComponent as Logo } from './logo.svg';
 import StepsHeader from '../StepsHeader';
 import ProductsList from '../ProductsList';
 import { useEffect, useState } from 'react';
