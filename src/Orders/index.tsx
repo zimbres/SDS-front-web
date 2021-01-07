@@ -8,7 +8,6 @@ import { fetchProducts } from '../api';
 function Orders() {
 
     const [products, setProducts] = useState<Product[]>([]);
-    console.log(products)
     useEffect(() => {
         fetchProducts()
             .then(response => setProducts(response.data))
